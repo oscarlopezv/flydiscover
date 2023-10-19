@@ -1,0 +1,12 @@
+[12-Oct-2022 23:12:33 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[12-Nov-2022 00:04:24 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[02-Dec-2022 08:26:12 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[04-Dec-2022 14:14:35 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[06-Dec-2022 09:43:08 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[12-Dec-2022 03:43:15 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[11-Jan-2023 04:15:51 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[17-Jan-2023 13:16:01 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[10-Feb-2023 05:47:51 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[20-Jun-2023 01:12:07 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[28-Aug-2023 07:10:48 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8
+[27-Sep-2023 07:56:50 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/innovdl8/public_html/flydiscover/php/log-out.php on line 8

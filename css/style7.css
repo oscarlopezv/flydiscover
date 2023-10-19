@@ -1,0 +1,301 @@
+/* Overlay style */
+
+#timeOnlyExample{
+	display: none;
+	color: #fff;
+}
+
+
+.tit-form-text{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	position: relative;
+	margin: 10px auto;
+	color: #72388D;
+	font-size: 16px;
+	
+	text-align: center;
+	display: block;
+}
+ 
+.form-text{
+	width: 49%;
+	height: auto;
+	padding: 15px;
+	position: relative;
+	float: left;
+	background-color: #72388D;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	text-align: left;
+	display: block;
+}
+
+.form-text-dos{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	position: relative;
+	margin: 10px auto;
+
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+}
+
+
+.form-bot{
+	    width: 100%;
+    height: 50px;
+    /* padding: 17px; */
+    position: relative;
+    /* float: left; */
+    background-color: #009acb;
+    color: #fff;
+    font-size: 16px;
+    /* margin-bottom: -10px; */
+    /* margin-right: 2px; */
+    /* border: none; */
+    /* margin-left: -10px; */
+    /* margin-right: -10px; */
+}
+
+
+
+
+
+.overlay {
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(153,204,51,0.1);
+	z-index: 14134;
+}
+
+
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 10px;
+height: 30px;
+position: absolute;
+right: 25px;
+top: 18px;
+overflow: hidden;
+border: none;
+background: url(../img/cross.png) no-repeat center center;
+text-indent: 200%;
+color: transparent;
+outline: none;
+z-index: 100;
+}
+
+/* Menu style */
+.overlay nav {
+	text-align: Left;
+	position: relative;
+	top: 60px;
+	/*height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding-left: 30px;*/
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+    width:100%
+}
+
+.overlay ul li {
+	display: block;
+	
+	min-height: 4px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	
+	padding: 2px;
+	color: #ffff;
+    border-bottom: solid;
+    border-color: #fff
+}
+.overlay ul li:hover {
+	background-color: #f9f9f9
+}
+
+.overlay ul li a {
+	font-size: 14px;
+	font-weight: 300;
+	display:block;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+	border-radius: 90px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #fffff !important;
+	
+	border-radius: 90px;
+	
+	padding-bottom: 9px;
+	padding-top: 9px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Effects */
+html, body {
+	overflow-x: hidden;
+}
+
+.container {
+	overflow-x: hidden;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;	
+}
+
+.container.overlay-open {
+	-webkit-transform: translateX(50%);
+	transform: translateX(50%);
+}
+
+.container::after {
+	content: '';
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.container.overlay-open::after {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.overlay-contentpush {
+    z-index: 1231231231;
+	background: #72388d;
+	visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+	transition: transform 0.5s, visibility 0s 0.5s;
+}
+
+.overlay-contentpush.open {
+	visibility: visible;
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.gridsd{
+            width:90%; 
+            overflow:hidden
+        }
+       .modulesrelsd{
+           overflow-x:scroll;
+           height:250px; 
+           white-space:nowrap;
+       }
+       .modulerelsd{
+           display:inline-block;
+           width:45%
+       }
+
+@media screen and (max-height: 30.5em) {
+	.overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	.overlay ul li {
+		min-height: 34px;
+	}
+    
+}
+
+
+
+
+@media (max-width: 990px) {
+
+
+.overlay {
+	
+	width: 40%;
+    height: 100%;
+    overflow: auto;
+    
+	
+}
+    .modulerelsd {
+        display: inline-block;
+        width: 75%;
+    }
+	
+}
+
+
+@media (max-width: 600px) {
+
+
+.overlay {
+	
+	width: 45%;
+	
+}
+    .modulerelsd {
+        display: inline-block;
+        width: 75%;
+    }
+	
+}
+
+
+@media (max-width: 500px) {
+
+
+    .overlay {
+
+        width: 70%;
+
+    }
+    .modulerelsd {
+        display: inline-block;
+        width: 85%;
+        height: 70%
+    }
+    
+    
+	
+}
+.buscar::placeholder{
+    color:#fff
+}
