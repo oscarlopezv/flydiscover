@@ -160,7 +160,7 @@ a:hover .link-popup {
 <?php if ($_GET["ver"]!='y'){ ?>
 <div id="flags" class="col-md-6 col-md-offset-3">
     <div class="col-md-4 col-xs-12">
-        <a href="https://flydiscover.club/?ver=y" class="col-xs-6 col-xs-offset-3" style="text-align: left">
+        <a href="http://flydiscover.exoeduca.com/?ver=y" class="col-xs-6 col-xs-offset-3" style="text-align: left">
         <img src="images/logo_fly.png" width='100px' class="margin-bottom-20"/>
         <span class="link-popup">FLYDISCOVER</span>
         </a>
