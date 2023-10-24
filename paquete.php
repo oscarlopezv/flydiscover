@@ -7,7 +7,7 @@ $sql->mysqlsrv();
 $query="select * from paquetes_menu where categoria='Paquete' and idpaquetes_menu=".$_GET["id"];
 $res=mysql_query($query) or die ("error");
 $row=mysql_fetch_array($res);
-include_once("validarlogin.php");
+// include_once("validarlogin.php");
 ?>
 
 <!DOCTYPE html>
