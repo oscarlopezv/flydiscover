@@ -6,7 +6,7 @@ $sql->mysqlsrv();
 $query="select * from paquetes_menu where idpaquetes_menu=".$_GET["id"];
 $res=mysql_query($query);
 $row=mysql_fetch_array($res);
-include_once("validarlogin.php");
+// include_once("validarlogin.php");
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
